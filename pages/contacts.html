@@ -13,14 +13,48 @@
           <li><a href="about.html">Про кафедру</a></li>
           <li><a href="contacts.html">Контакти</a></li>
           <li><a href="services.html">Послуги</a></li>
+          <li><a href="blog.html">Про мене</a></li>
         </ul>
       </nav>
     </header>
     <main>
-        <h1>Контакти</h1>
-        <section>
-            <h2>Зв'язатися з нами</h2>
-            <p>Для отримання додаткової інформації, будь ласка, зв'яжіться з нами за наступними контактами:</p>
+      <section>
+        <h2>Наші контакти</h2>
+        <address>
+          <p><strong>Адреса:</strong> м. Харків, вул. Прикладна, 1</p>
+          <p>
+            <strong>Телефон:</strong>
+            <a href="tel:+380123456789">+380 12 345 67 89</a>
+          </p>
+          <p>
+            <strong>Email:</strong>
+            <a href="mailto:info@example.com">info@example.com</a>
+          </p>
+        </address>
+      </section>
+
+      <section>
+        <h2>Форма зворотного зв'язку</h2>
+        <form action="#" method="post">
+          <p>
+            <label for="name">Ім'я:</label>
+            <input type="text" id="name" name="name" required />
+          </p>
+          <p>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required />
+          </p>
+          <p>
+            <label for="message">Повідомлення:</label>
+            <textarea id="message" name="message" rows="5" required></textarea>
+          </p>
+          <button type="submit">Надіслати</button>
+        </form>
+      </section>
     </main>
+
+    <footer>
+      <p>&copy; 2026. Всі права захищені.</p>
+    </footer>
   </body>
 </html>
